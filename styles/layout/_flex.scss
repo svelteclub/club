@@ -1,0 +1,20 @@
+@mixin base {
+	display: flex;
+
+	&.wrap {
+		flex-wrap: wrap;
+	}
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.row {
+	@include base;
+}
+
+.col {
+	@include base;
+	flex-direction: column;
+}

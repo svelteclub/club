@@ -1,0 +1,12 @@
+a,
+.anchor {
+	text-decoration: none;
+
+	color: rgba(var(--hyperlink-color));
+
+	transition: color 0.2s ease-in-out;
+
+	&:hover {
+		color: rgb(var(--hyperlink-color-hover));
+	}
+}

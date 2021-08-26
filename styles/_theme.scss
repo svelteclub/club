@@ -1,0 +1,25 @@
+@use './variables';
+
+:root {
+	--brand-a: 255, 187, 182;
+	--brand-b: 255, 204, 139;
+	--brand-c: 255, 139, 169;
+	--dark: 6, 6, 6;
+	--light: 255, 255, 255;
+	--grey-5: var(--text), 0.05;
+	--grey-15: var(--text), 0.15;
+	--grey-50: var(--text), 0.5;
+
+	--hyperlink-color: var(--grey-50);
+	--hyperlink-color-hover: var(--brand-b);
+
+	&[theme='dark'] {
+		--bg: var(--dark);
+		--text: var(--light);
+	}
+
+	&[theme='light'] {
+		--bg: var(--light);
+		--text: var(--dark);
+	}
+}

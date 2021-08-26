@@ -1,0 +1,40 @@
+{
+    "name": "Svelte Club",
+    "short_name": "Svelte Club",
+    "icons": [
+        {
+            "src": "/images/icons/android-chrome-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icons/android-chrome-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/images/icons/maskable-icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/images/icons/maskable-icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/images/icons/maskable-icon-1080.png",
+            "sizes": "1080x1080",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "theme_color": "#0d1520",
+    "background_color": "#0d1520",
+    "start_url": "https://svelte.club",
+    "display": "standalone"
+}

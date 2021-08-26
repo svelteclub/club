@@ -1,0 +1,17 @@
+@use '../vendor/rfs';
+@use '../variables';
+
+@mixin heading($font-size) {
+	@include rfs.margin-bottom($font-size);
+	@include rfs.font-size($font-size);
+	margin-top: 0;
+
+	font-weight: variables.$font-weight-headings;
+	line-height: variables.$line-height-headings;
+}
+
+@each $element, $size in variables.$heading-sizes {
+	#{unquote($element)} {
+		@include heading($size);
+	}
+}

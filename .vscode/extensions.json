@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "christian-kohler.path-intellisense",
+        "ms-vscode.vscode-typescript-next",
+        "fivethree.vscode-svelte-snippets",
+        "wayou.vscode-todo-highlight",
+        "stylelint.vscode-stylelint",
+        "pivaszbs.svelte-autoimport",
+        "dbaeumer.vscode-eslint",
+        "svelte.svelte-vscode",
+        "ardenivanov.svelte-intellisense"
+    ]
+}

@@ -1,0 +1,11 @@
+@use '../variables';
+
+/**
+ * Include Media
+ * =============
+ * Expose the include-media API
+ */
+
+@forward 'include-media/dist/include-media' with (
+	$breakpoints: variables.$breakpoints
+);

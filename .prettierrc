@@ -1,9 +1,9 @@
 {
-    "svelteSortOrder": "options-scripts-markup-styles",
-    "useTabs": false,
-    "tabWidth": 4,
-    "singleQuote": true,
-    "trailingComma": "none",
-    "printWidth": 140,
-    "semi": true
+	"svelteSortOrder": "options-scripts-markup-styles",
+	"trailingComma": "none",
+	"singleQuote": true,
+	"printWidth": 140,
+	"useTabs": true,
+	"tabWidth": 4,
+	"semi": false
 }

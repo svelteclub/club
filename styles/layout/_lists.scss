@@ -1,0 +1,35 @@
+@use '../vendor/rfs';
+@use '../vendor/media';
+
+/**
+ * Lists
+ * =====
+ */
+
+.horizontal-list {
+	display: flex;
+	align-items: center;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	@include media.media('<=sm') {
+		&--v-sm {
+			align-items: normal;
+			flex-direction: column;
+
+			li {
+				@include rfs.margin(0 0 1.5rem);
+			}
+		}
+	}
+
+	li {
+		@include rfs.margin-left(1.5rem);
+	}
+
+	li:first-of-type {
+		margin-left: 0;
+	}
+}

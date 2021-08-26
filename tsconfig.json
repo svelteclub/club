@@ -16,10 +16,9 @@
         "checkJs": true,
         "strict": true,
         "paths": {
-            "$lib": ["src/lib"],
-            "$lib/*": ["src/lib/*"]
+            "$lib": ["src/lib"]
         },
-        "types": ["@sveltejs/kit"]
+        "types": ["@sveltejs/kit", "vite/client", "date-fns"]
     },
     "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
 }
